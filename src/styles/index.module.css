@@ -1,0 +1,41 @@
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.greenButton{
+    background: #12DC87;
+    box-shadow: -13px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 262.5px;
+    margin-top: 20px;
+    color: white;
+    outline: none;
+    border-style: none;
+    width: 130px;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.bigIcon{
+    font-size: 30px;
+}
+
+.voidText{
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 58px;
+}
