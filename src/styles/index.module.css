@@ -39,3 +39,18 @@
     font-size: 48px;
     line-height: 58px;
 }
+
+.textCard{
+    background-color: #FFF;
+        box-shadow: -10px 14px 4px rgba(0, 0, 0, 0.25);
+        resize: none;
+        height: 300px;
+        
+        width: 400px;
+        border-radius: 5px;
+        font-family: 'Inter', sans-serif;
+        padding: 50px;
+        
+        inline-size: 400px;
+        overflow-wrap: break-word;
+}
