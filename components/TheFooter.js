@@ -11,7 +11,7 @@ export default function TheFooter()
 
         <footer className={styles.footer}>
 
-            <p>Powered by <a href="https://zenquotes.io/" target="_blank" rel="noopener noreferrer"><u>ZEN QUOTES</u></a></p>
+            <p>Quotes from <a href="https://github.com/lukePeavey/quotable" target="_blank" rel="noopener noreferrer"><u>Quotable</u></a></p>
 
 
             <a href="https://github.com/Jman1868" target="_blank" rel="noopener noreferrer"> <RiGithubLine className={styles.bigIcon} /> </a>

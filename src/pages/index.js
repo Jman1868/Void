@@ -4,28 +4,14 @@ import React from 'react'
 import Link from "next/link"
 import { FaRegQuestionCircle } from "react-icons/fa"
 import TextCard from '../../components/TextCard'
-
-
-
-export async function GetStaticProps()
-{
-  const res = await fetch('https://anapioficeandfire.com/api/characters/583')
-  const data = await res.json()
-
-  return {
-    props: {
-      data,
-    },
-  }
-}
+import Typewriter from 'typewriter-effect';
 
 
 
 
-export default function Home({data}) {
+
+export default function Home() {
  
-
-  console.log(data)
   const [submit, setSubmit]= React.useState(true)
  
   function HandelSubmit()
@@ -35,7 +21,7 @@ export default function Home({data}) {
       console.log(submit)
   }
 
-
+ 
 
   return (
 
@@ -46,7 +32,18 @@ export default function Home({data}) {
       
       {submit && <div className={styles.card}>
 
-        <p className={styles.voidText}>Type into the void</p>
+      
+        <div className={styles.voidText}>
+          
+          <Typewriter
+          onInit={(typewriter) =>
+          {
+            typewriter.typeString('Type into the void')
+              .pauseFor(2500)
+              .start();
+          }}
+          />
+        </div>
         <textarea width="400"></textarea>
         <button className={styles.greenButton} onClick={HandelSubmit}>Submit</button>
       </div>
@@ -60,10 +57,7 @@ export default function Home({data}) {
       
 
       
-      {/* <details>
-        <summary>Details</summary>
-        Something small enough to escape casual notice.
-      </details> */}
+  
 
      
 

@@ -25,6 +25,7 @@ textarea {
   border-style: none;
     font-family: 'Inter', sans-serif;
   padding: 50px;
+  margin-top: 5%;
 }
 
 button {
@@ -35,3 +36,15 @@ button {
 .link {
   text-decoration: none;
 }
+
+@media all and (max-width:540px) {
+
+  textarea  {
+    height: 200px;
+    width: 200px;
+  }
+
+
+
+}
+

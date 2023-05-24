@@ -38,19 +38,60 @@
     font-weight: 100;
     font-size: 48px;
     line-height: 58px;
+    text-align: center;
 }
 
 .textCard{
-    background-color: #FFF;
+        background-color: #FFF;
         box-shadow: -10px 14px 4px rgba(0, 0, 0, 0.25);
         resize: none;
         height: 300px;
         
-        width: 400px;
+        
         border-radius: 5px;
         font-family: 'Inter', sans-serif;
         padding: 50px;
         
         inline-size: 400px;
         overflow-wrap: break-word;
+
+
+        
 }
+
+ @media all and (max-width:540px) {
+
+    .textCard{
+        inline-size: 200px;
+        height: 200px;
+        
+    }
+
+    
+
+ }
+
+.typewriter  {
+    overflow: hidden;
+        /* Ensures the content is not revealed until the animation */
+
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 50%
+    }
+}
+
