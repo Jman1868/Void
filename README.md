@@ -1,3 +1,5 @@
+## ***Link***
+https://emptyvoid.netlify.app/
 ## ***About***
 This is a small little project I made while learning about React. The user can type something or just hit submit for a random quote to appear. After following a tutorial series I figured making a project on my own would be a good way to solidify the concepts I learned.
 
