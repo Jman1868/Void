@@ -16,4 +16,4 @@ I really wanted to create a sort of mono chromatic look so I spent some time in 
 ![desktop design 2](https://github.com/Jman1868/Void/blob/main/images/Desktop%20-%203.png)
 
 ![mobile design 1](https://github.com/Jman1868/Void/blob/main/images/Android%20Large%20-%201.png)
-![mobile design 2](https://github.com/Jman1868/Void/blob/main/images/Desktop%20-%203.png)
+![mobile design 2](https://github.com/Jman1868/Void/blob/main/images/Android%20Large%20-%202.png)
