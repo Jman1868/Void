@@ -1,7 +1,7 @@
 
 import React from "react"
 import styles from '@/styles/index.module.css'
-import { RiGithubLine } from 'react-icons/Ri';
+import { RiGithubLine } from '../node_modules/react-icons/ri';
 
 export default function TheFooter()
 {
