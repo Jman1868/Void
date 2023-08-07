@@ -28,7 +28,7 @@ export default function Home() {
     
     <div>
       
-      <Link href="/faq" className='link'><FaRegQuestionCircle className={styles.bigIcon} /></Link>
+  
       
       {submit && <div className={styles.card}>
 
