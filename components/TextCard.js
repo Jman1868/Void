@@ -17,11 +17,16 @@ export default function TextCard(props)
             .then((data) =>
             {
                 setQuote(data.content)
-                console.log(quote)
                 
             })
-        
-    },[])
+            .catch((error) =>
+            {
+                console.error('Error fetching data:', error);
+            });
+        console.log('i fire once');
+    }, [])
+    
+  
 
     
     return (
