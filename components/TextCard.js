@@ -13,6 +13,7 @@ export default function TextCard(props)
    const  [quote, setQuote] = useState("")
     useEffect(() =>
     {
+        {/*Replace this with ai api */}
         fetch('https://api.quotable.io/random')
             .then((res) => res.json())
             .then((data) =>

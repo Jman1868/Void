@@ -11,6 +11,7 @@ export default function TheFooter()
 
         <footer className={styles.footer}>
 
+            {/*TODO: Decide if I want to have a footer or not */}
             <p>Quotes from <a href="https://github.com/lukePeavey/quotable" target="_blank" rel="noopener noreferrer"><u>Quotable</u></a></p>
 
 

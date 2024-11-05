@@ -9,7 +9,6 @@ import Typewriter from 'typewriter-effect';
 
 
 
-
 export default function Home()
 {
 
@@ -17,22 +16,14 @@ export default function Home()
 
     function HandelSubmit()
     {
-
         setSubmit(prev => !prev)
         console.log(submit)
     }
 
 
-
     return (
-
-
         <div>
-
-
-
             {submit && <div className={styles.card}>
-
 
                 <div className={styles.voidText}>
 
@@ -55,12 +46,6 @@ export default function Home()
                 <TextCard />
 
             </div>}
-
-
-
-
-
-
 
         </div>
     )
