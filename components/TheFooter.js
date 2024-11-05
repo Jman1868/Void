@@ -1,7 +1,7 @@
-
+'use client'
 import React from "react"
 import styles from '@/styles/index.module.css'
-import { RiGithubLine } from '../node_modules/react-icons/ri';
+import { RiGithubLine } from '@/node_modules/react-icons/ri';
 
 export default function TheFooter()
 {
